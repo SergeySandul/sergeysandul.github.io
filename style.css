@@ -121,6 +121,8 @@ body {
 }
 
 .skill-sql {
+  width: 22px;
+  height: 24px;
   background-image: url("img/icon-sql.svg");
 }
 
