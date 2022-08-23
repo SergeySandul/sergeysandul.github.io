@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://w3.org/TR/html4/strict.dtd"> 
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Тестовое задание</title>
+	<link href="./form_style.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+    <form class="form_reg" action="self.php" method="POST" onsubmit="return validate()">
+    <img src="./head.jpg" class="form_head">
+        <span id="loginf"></span>
+        <label for="menu_login">
+        	<img src="./body.png" class="form_icon">Login<input id="menu_login" name="login" type="text" class="input_field">
+        </label>
+        <hr class="hr_reg hr_1">
+        <label for="menu_password">
+            <img src="./lock.png" class="form_icon lock_icon">Password<input id="menu_password" name="password" type="password" class="input_field" style="width: 4.7cm;">	
+        </label>
+        <hr class="hr_reg hr_2">
+        <a href="./forgot_password.html" class="form_link">Forgot password ?</a>
+        <input class="button_reg" id="menu_button" name="enter" type="submit" value="Sign in">
+    </form>
+    </div>
+    <script type="text/javascript">
+    	function validate() {
+    	    login = document.getElementById("menu_login").value
+    	    password = document.getElementById("menu_password").value
+    	    	
+    	    if (login.length < 4 || password.length < 6)
+    	    {
+    	    	document.getElementById("loginf").innerHTML = "неверный логин или пароль"
+    	    	return false;
+    	    } 
+    	    else
+    	    	return true;
+    	}
+    </script>
+</body>
+</html>

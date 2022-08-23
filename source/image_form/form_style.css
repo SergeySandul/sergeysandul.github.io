@@ -1,0 +1,101 @@
+body {
+	background-color: #264058;
+}
+
+.form_reg {
+	width: 382px;
+	height: 422px;
+	margin-top: 150px;
+	margin-left: 450px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.button_reg {
+	border: 0;
+	background-color: #F45E00;
+	width: 8.3cm;
+	height: 64px;
+	color: #FFC69D;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-top: 47px;
+	margin-left: 36px;
+	margin-right: 36px;
+	margin-bottom: 48px;
+	font-size: 17.5px;
+	box-shadow: 0.2em 0.4em 30px rgba(0, 0, 0, 0.5);*/
+}
+
+
+.hr_reg {
+	width: 8.2cm;
+	height: 1.5px;
+	background-color: lightgrey;
+	border: 0;
+}
+
+.hr_1 {
+	margin-top: 12px;
+	margin-bottom: 1.6cm;
+}
+
+.hr_2 {
+	margin-top: 12px;
+	margin-bottom: 19px;
+	height: 2px;
+	background-color: lightgrey;
+	border: 0;
+}
+
+.form_head {
+	border-radius: 80px;
+	margin-top: -50px;
+	margin-left: 136px;
+	margin-right: 136px;
+	margin-bottom: 32px;
+}
+
+.input_field {
+	border: 0;
+	margin-left: 5px;
+	width: 5.6cm;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-right: 0;
+}
+
+.form_icon {
+	margin-bottom: -6px;
+	margin-left: 36px;
+	margin-right: 21px;
+}
+
+.lock_icon {
+	margin-bottom: -9px;
+}
+
+.form_link {
+	font-size: 15px;
+	font-family: Arial;
+	color: #939393;
+	text-decoration: none;
+	margin-left: 224px;
+}
+
+label {
+	font-family: Arial;
+	font-size: 17px;
+	color: #090E12;
+}
+
+span {
+	color:red; 
+	font-size: 12px; 
+	position: absolute; 
+	margin-top: -15px;
+	margin-left: 36px;
+}
